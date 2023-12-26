@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MalcaDBModelStoreContainer" CdmEntityContainer="MalcaDB">
+    <EntitySetMapping Name="RECEPCIONES">
+      <EntityTypeMapping TypeName="MalcaDBModel.RECEPCION">
+        <MappingFragment StoreEntitySet="RECEPCION">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Bascula" ColumnName="Bascula" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="Unidad" ColumnName="Unidad" />
+          <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
